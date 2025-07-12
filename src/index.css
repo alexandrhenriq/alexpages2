@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap');
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --cor-bege: #f5f0e1; /* fundo versão light e texto versão dark */
+    --cor-rosa-claro: #f4d9d1;
+    --cor-rosa-pastel: #f5c2c2;
+    --cor-rosa: #ec5c8f;
+    --cor-azul: #1cb0f6;
+    --cor-azul-marinho: #1a2e45; /* texto versão light */
+    --cor-azul-escuro: #0b1523; /* fundo versão dark */
+    --cor-cinza: #d9d9d9;
+    --cor-cinza-escuro: #a19999;
+  }
+
+  html {
+    font-family: 'Nunito', sans-serif;
+  }
+
+  /* modo dark */
+  .dark {
+    --cor-bege: #0b1523;
+    --cor-azul-marinho: #f5f0e1;
+  }
+
+  /* tamanhos das fontes */
+  h1 {
+    font-size: 48px;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+
+  h3 {
+    font-size: 24px;
+  }
+
+  h4 {
+    font-size: 20px;
+  }
+
+  h5 {
+    font-size: 16px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+}
