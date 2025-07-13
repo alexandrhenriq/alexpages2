@@ -24,7 +24,7 @@ export function Formulario() {
           </button>
   
           <p className="mt-3.5 mb-5 text-center text-xs text-[var(--cor-azul-marinho)]">
-            Ainda não possui sua conta CoincSmart? <a className="text-[var(--cor-azul)] underline font-bold" href="#">Cadastrar</a>
+            Ainda não possui a sua conta CoincSmart? <a className="text-[var(--cor-azul)] underline font-bold" href="#">Cadastrar</a>
           </p>
         </form>
       </div>
